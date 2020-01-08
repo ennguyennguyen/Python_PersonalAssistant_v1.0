@@ -111,8 +111,7 @@ def getDate():
 '''
 
 #STEP 9: Main
-time.sleep(2)
-while 1:
+while True:
     # record audio
     text = recordAudio()
     response = '' # empty response string
